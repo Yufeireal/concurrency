@@ -7,4 +7,8 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.98"
+dashmap = "6.1.0"
+rand = "0.9.1"
+random = "0.14.0"
+rng = "0.1.0"
 tokio = { version = "1.45.0", features = ["sync"] }
